@@ -1,0 +1,54 @@
+Essential Terminology:
+
+| Term | Definition | Importance |
+| :--- | :--- | :--- |
+| **Security Policies** | Formal documents that define an organization's security objectives, guidelines, and procedures to protect information assets. | Establishes the framework for implementing and enforcing security controls. |
+| **Compliance** | Adherence to regulatory requirements, industry standards, and internal policies related to security and data protection. | Ensures that the organization meets legal obligations and best practices. |
+| **Vulnerability** | A weakness in a system or process that can be exploited to gain unauthorized access or cause harm. | Identifying vulnerabilities is crucial for assessing and improving security measures. |
+| **Control** | A safeguard or countermeasure implemented to mitigate risks and protect information assets. | Controls are designed to prevent, detect, or respond to security threats and weaknesses. |
+| **Risk Assessment** | The process of identifying, analyzing, and evaluating risks to an organization's information assets. | Helps prioritize security measures based on the likelihood and impact of identified risks. |
+
+
+| Term | Definition | Importance |
+| :--- | :--- | :--- |
+| **Audit Trail** | A chronological record of events and activities that provides evidence of actions taken within a system. | Supports accountability and traceability during security audits and investigations. |
+| **Compliance Audit** | An examination of an organization's adherence to regulatory requirements and industry standards. | Validates whether the organization meets the necessary compliance criteria and identifies areas for improvement. |
+| **Access Control** | Measures and mechanisms used to regulate who can access specific information or systems and what actions they can perform. | Protects sensitive information from unauthorized access and misuse. |
+| **Audit Report** | A formal document that presents the findings, conclusions, and recommendations resulting from a security audit. | Communicates audit results and provides guidance for improving security practices. |
+
+
+
+Security Auditing Process/Lifecyle:
+
+1. Planning and Preparation
+2. Information Gathering
+3. Risk Assesment and Execution
+4. Analysis, Interpretation and Reporting
+5. Remediation
+
+
+
+Types of security audit:
+
+| Security Audit | Objective | Importance | Example |
+| :--- | :--- | :--- | :--- |
+| **Internal Audits** | Conducted by the organization's internal audit team or security professionals to evaluate the effectiveness of internal controls and compliance with policies. | Internal audits provide insight into the organization's self-assessment of its security posture and highlight areas that may require more in-depth testing. | An internal audit might review user access controls to ensure that only authorized personnel have access to sensitive data. |
+| **External Audits** | Performed by independent third-party auditors to provide an unbiased evaluation of the organization's security measures and compliance with external standards. | External audits often serve as benchmarks for compliance and security effectiveness. Penetration testers can use these findings to guide their testing efforts. | A company undergoing a PCI DSS compliance audit might hire an external auditor to validate its security controls and ensure they meet the required standards. |
+| **Compliance Audits** | Focus on verifying that the organization complies with specific regulatory requirements and industry standards (e.g., GDPR, HIPAA, PCI DSS). | Compliance audits help identify regulatory gaps that penetration testers can address through targeted testing. | A healthcare provider might undergo a HIPAA compliance audit to ensure that patient data is protected according to federal regulations. |
+
+
+| Security Audit | Objective | Importance | Example |
+| :--- | :--- | :--- | :--- |
+| **Technical Audits** | Focus on assessing the technical aspects of the organization's IT infrastructure, including hardware, software, and network configurations. | Technical audits provide a detailed view of the technical controls in place, highlighting areas where penetration testing can uncover vulnerabilities. | A technical audit might involve a thorough review of firewall configurations to ensure they are properly properly securing the network perimeter. |
+| **Network Audits** | Assess the security of the organization's network infrastructure, including routers, switches, firewalls, and other network devices. | Network audits can reveal vulnerabilities in network design and configurations that penetration testers can exploit to assess network security. | A network audit might identify insecure protocols being used for data transmission, prompting penetration testers to test for potential exploits. |
+| **Application Audits** | Evaluate the security of software applications, focusing on code quality, input validation, authentication mechanisms, and data handling. | Application audits highlight security flaws in applications that penetration testers can exploit to demonstrate real-world attack scenarios. | An application audit might reveal vulnerabilities such as SQL injection or cross-site scripting (XSS) in a web application. |
+
+Sec audit vs Pentest:
+
+| | **Security Audit** | **Penetration Test** |
+| :--- | :--- | :--- |
+| **Purpose** | Evaluate an organization’s overall security posture by assessing compliance with policies, standards, and regulations. It focuses on the effectiveness of security controls, processes, and practices. | Simulate real-world attacks to identify and exploit vulnerabilities in systems, networks, or applications. It focuses on technical weaknesses and how they can be exploited by attackers. |
+| **Scope** | Comprehensive, covering various aspects such as policies, procedures, technical controls, physical security, and compliance with regulations. | Specific to the systems, networks, or applications being tested. The scope is defined to focus on particular areas of interest. |
+| **Methodology** | Typically involves reviewing documentation, conducting interviews, performing technical assessments, and evaluating compliance with security standards. | Involves using various tools and techniques to attempt to breach systems, exploit vulnerabilities, and assess the effectiveness of security defenses. |
+| **Outcome** | Identifies gaps in security policies, procedures, and controls. Provides recommendations for improving overall security and ensuring compliance. | Provides a detailed assessment of vulnerabilities and potential attack vectors. Offers recommendations for mitigating identified risks and improving security defenses. |
+| **Frequency** | Often performed on a regular basis (e.g., annually or biannually) or as required by compliance regulations. | Typically performed as needed, such as after significant changes to systems, on a regular schedule, or as part of compliance requirements. |
